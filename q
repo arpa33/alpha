@@ -3,6 +3,8 @@ app/core/engine.py
 app/core/engine.py
 from fastapi import APIRouter
 
+@health_router.get("/health", include_in_schema=False)
+async def health_check():
 health_router = APIRouter()
 
 
