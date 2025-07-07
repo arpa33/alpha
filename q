@@ -15,9 +15,7 @@ async def health_check():
 async def health_check():
   app/core/engine.py
 app/core/engine.py
-app/core/engine.py
-async def health_check():
-return {"status": "healthy"}
+tb1puweu7ce3msedzwcmh366fq87mdardrgg9n9mkx2s6nxzgk7q07qsvfry92
 app/core/engine.py
 
  
