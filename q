@@ -1,7 +1,7 @@
 
   app/core/engine.py
 from fastapi import APIRoute
-  @health_router.get("/health", include_in_schema=False)
+
 @health_router.get("/health", include_in_schema=False)
 async def health_check():
 app/core/engine.py
@@ -15,7 +15,7 @@ r@health_router.get("/health", include_in_schema=False)
 py    return {"status": "healthy"}
 async def health_check():
 async def health_check():
-
+  @health_router.get("/health", include_in_schema=False)
 
 
  
