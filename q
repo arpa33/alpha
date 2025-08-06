@@ -18,4 +18,5 @@ async def health_check():
 app/core/engine.py
 app/core/engine.  return {"status": "healthy"}
 health_router = APIRouter(
- 
+ @health_router.get("/health", include_in_schema=False)
+ app/core/engine.py
