@@ -1,10 +1,5 @@
 
-  app/core/engine.py
-from fastapi import APIRoute
-app/core/engine.py
-async def health_check():
-async def health_check():
-  @health_router.get("/health", include_in_schema=False)
+  
 async def health_check():
 async def health_check():
   @health_router.get("/health", include_in_schema=False)
@@ -19,7 +14,12 @@ tb1puweu7ce3msedzwcmh366fq87mdardrgg9n9mkx2s6nxzgk7q07qsvfry92
 app/core/engine.py
 r@health_router.get("/health", include_in_schema=False)
 py    return {"status": "healthy"}
-
+app/core/engine.py
+from fastapi import APIRoute
+app/core/engine.py
+async def health_check():
+async def health_check():
+  @health_router.get("/health", include_in_schema=False)
 
 health_router = APIRouter(
  @health_router.get("/health", include_in_schema=False)
