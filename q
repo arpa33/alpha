@@ -1,4 +1,8 @@
+# Download docker-compose.yml
+curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/docker-compose.yml
 
+# Download example environment file
+curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/example.env
   
 
 app/core/engine.py
