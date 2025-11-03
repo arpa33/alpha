@@ -1,8 +1,4 @@
-# Download docker-compose.yml
-curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/docker-compose.yml
 
-# Download example environment file
-curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/example.env
   
 
 
@@ -15,7 +11,11 @@ health_router = APIRouter(
  @health_router.get("/health", include_in_schema=False)
  app/core/engine.py
 @health_router.get("/health", include_in_schema=False)
- app/core/engine.py
+ app/core/engine.py# Download docker-compose.yml
+curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/docker-compose.yml
+
+# Download example environment file
+curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/example.env
 tb1puweu7ce3msedzwcmh36
 app/core/engine.py
 app/core/engine.  return {"status": "healthy"}
