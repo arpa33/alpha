@@ -7,7 +7,10 @@ tb1puweu7ce3msedzwcmh36
 async def health_check():
   @health_router.get("/health", include_in_schema=False)
 
-
+app/core/engine.py
+app/core/engine.  return {"status": "healthy"}
+)py    return {"status": "healthy"}
+app/core/engine.py
 
 
 
@@ -17,10 +20,7 @@ health_router = APIRouter(
 @health_router.get("/health", include_in_schema=False)
  app/core/engine.py# Download docker-compose.yml
 
-app/core/engine.py
-app/core/engine.  return {"status": "healthy"}
-)py    return {"status": "healthy"}
-app/core/engine.py
+
 from fastapi import APIRoute
 app/core/engine.py
 async def health_check():
