@@ -6,7 +6,8 @@ tb1puweu7ce3msedzwcmh36
   curl -O https://raw.githubusercontent.com/crestalnetwork/intentkit/main/docker-compose.yml
 async def health_check():
   @health_router.get("/health", include_in_schema=False)
-
+@health_router.get("/health", include_in_schema=False)
+ app/core/engine.py# Download docker-compose.yml
 app/core/engine.py
 app/core/engine.  return {"status": "healthy"}
 )py    return {"status": "healthy"}
@@ -20,8 +21,7 @@ app/core/engine.py
 health_router = APIRouter(
  @health_router.get("/health", include_in_schema=False)
  app/core/engine.py
-@health_router.get("/health", include_in_schema=False)
- app/core/engine.py# Download docker-compose.yml
+
 
 
 from fastapi import APIRoute
