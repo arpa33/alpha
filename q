@@ -146,9 +146,6 @@ node --experimental-modules src/server.js
 python -m pip install requests python-dotenv
 python examples/check_bill.py "+15551234567"
 ```
-
----
-
 ## Security & Privacy
 
 * Never commit `.env` or any secrets to git. Use `.gitignore`.
